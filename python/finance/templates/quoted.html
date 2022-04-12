@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+
+        <!-- Showing qoute for selected symbol -->
+
+        A share of {{ data.name }} ({{ data.symbol }}) costs {{ data.price | usd}} at the moment.
+
+{% endblock %}
