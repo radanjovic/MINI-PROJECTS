@@ -1,4 +1,4 @@
-# A program taht indentifies a person based on their DNA
+# A program that indentifies a person based on their DNA
 
 # DNA, the carrier of genetic information in living things, has been used in criminal 
 # justice for decades. But how, exactly, does DNA profiling work? Given a sequence of 

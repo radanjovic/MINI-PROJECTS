@@ -23,10 +23,10 @@ function cipher(str, num) {
     for (let i = 0; i<str.length; i++) {
       let ascii = str.charCodeAt(i);
       if (ascii >= 97 && ascii <= 122) {
-        let newLetterAscii = (((ascii - 97) +13) % 26) + 97;
+        let newLetterAscii = (((ascii - 97) + num) % 26) + 97;
         reversed += String.fromCharCode(newLetterAscii);
       } else if (ascii >= 65 && ascii <= 90) {
-        let newLetterAscii = (((ascii - 65) +13) % 26) + 65;
+        let newLetterAscii = (((ascii - 65) + num) % 26) + 65;
         reversed += String.fromCharCode(newLetterAscii);
       } else {
         reversed += str[i];
